@@ -101,14 +101,31 @@ print(sum);
 ## for
 ```dart
 for (var i = 0; i < 5; i++) {
-print(i);
-}
-```
-```dart
-for (var i = 0; i < 5; i++) {
 if (i == 2) {
 continue; // skip 2
 }
 print(i);
+}
+```
+```dart
+const myString = 'I ❤ Dart';
+for (var codePoint in myString.runes) {
+print(String.fromCharCode(codePoint));
+}
+```
+```dart
+const myNumbers = [1, 2, 3]; // list
+myNumbers.forEach((number)print(number);
+});
+```
+## functions
+```dart
+void main() {
+const input = 12;
+final output = compliment(input);
+print(output);
+}
+String compliment(int number) {
+return '$number is a very nice number.';
 }
 ```
