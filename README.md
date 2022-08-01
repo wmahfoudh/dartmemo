@@ -80,3 +80,35 @@ print(weatherToday);
 final index = weatherToday.index;
 // 2
 ```
+## while
+```dart
+sum = 1;
+while (true) {
+sum += 4;
+if (sum > 10) {
+break;
+}
+}
+```
+## do while
+```dart
+sum = 1;
+do {
+sum += 4;
+print(sum);
+} whil
+```
+## for
+```dart
+for (var i = 0; i < 5; i++) {
+print(i);
+}
+```
+```dart
+for (var i = 0; i < 5; i++) {
+if (i == 2) {
+continue; // skip 2
+}
+print(i);
+}
+```
