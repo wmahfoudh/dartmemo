@@ -1,2 +1,8 @@
-# dartmemo
-Dart Language Memo
+# Dart Memo
+
+## if
+'''dart
+if (someCondition) {
+// code block
+}
+'''
