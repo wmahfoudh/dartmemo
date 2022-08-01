@@ -14,6 +14,20 @@ print('Animal is a house pet.');
 print('Animal is not a house pet.');
 }
 ```
+```dart
+const trafficLight = 'yellow';
+var command = '';
+if (trafficLight == 'red') {
+command = 'Stop';
+} else if (trafficLight == 'yellow') {
+command = 'Slow down';
+} else if (trafficLight == 'green') {
+command = 'Go';
+} else {
+command = 'INVALID COLOR!';
+}
+print(command);
+```
 ## string interpolation
 ```dart
 const name = 'Bondi';
