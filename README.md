@@ -1,8 +1,8 @@
 # Dart Memo
 
 ## if
-'dart
+```dart
 if (someCondition) {
 // code block
 }
-'
+```
