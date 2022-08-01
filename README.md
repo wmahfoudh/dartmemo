@@ -1,18 +1,26 @@
 # Dart Memo
 
-## if
+## if / else
 ```dart
 if (someCondition) {
 // code block
 }
 ```
-## if
+```dart
+const animal = 'Fox';
+if (animal == 'Cat' || animal == 'Dog') {
+print('Animal is a house pet.');
+} else {
+print('Animal is not a house pet.');
+}
+```
+## string interpolation
 ```dart
 const name = 'Bondi';
 const introduction = 'Hello my name is $name';
 // 'Hello my name is Bondi'
 ```
-## if
+## string interpolation
 ```dart
 if (someCondition) {
 // code block
