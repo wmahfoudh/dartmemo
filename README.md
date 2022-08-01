@@ -1,6 +1,6 @@
 # Dart Memo
 
-## if / else
+## if - else - else if
 ```dart
 if (someCondition) {
 // code block
@@ -28,15 +28,28 @@ command = 'INVALID COLOR!';
 }
 print(command);
 ```
+## switch
+```dart
+switch (variable) {
+case value1:
+// code
+break;
+case value2:
+// code
+break;
+...
+}
+default:
+// code
+```
 ## string interpolation
 ```dart
 const name = 'Bondi';
 const introduction = 'Hello my name is $name';
 // 'Hello my name is Bondi'
 ```
-## string interpolation
+## ternary operator
 ```dart
-if (someCondition) {
-// code block
-}
+(condition) ? valueIfTrue : valueIfFalse;
 ```
+## switch
